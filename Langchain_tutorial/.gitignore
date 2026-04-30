@@ -3,18 +3,19 @@
 # # Add this line to ignore your environment variables
 # .env
 
-# Ignore virtual environments
+# Ignore the virtual environment
 venv/
 .venv/
 env/
+lib/
+bin/
 
 # Ignore Python cache and logs
 __pycache__/
 *.py[cod]
-*$py.class
 *.log
 
-# Ignore environment variables and credentials
+# Ignore environment variables
 .env
 
 # Ignore AI agent temporary files and scratchpads

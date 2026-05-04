@@ -1,4 +1,16 @@
-Langchain_tutorial/
-Langchain_tutorial/
-Langchain_tutorial/
-Langchain_tutorial/
+# Ignore the virtual environment
+venv/
+.venv/
+env/
+lib/
+bin/
+Langchain_tutorial/Langchain_tutorial/
+# Ignore Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+# Ignore environment variables
+.env
+# Ignore AI agent temporary files and scratchpads
+*.plan
+.antigravity/

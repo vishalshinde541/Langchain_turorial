@@ -14,3 +14,8 @@ __pycache__/
 # Ignore AI agent temporary files and scratchpads
 *.plan
 .antigravity/
+pyvenv.cfg
+share/
+.gitattributes
+Langchain_tutorial/.gitattributes
+Langchain_tutorial/.gitignore

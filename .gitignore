@@ -1,21 +1,41 @@
-# Ignore the virtual environment
-venv/
-.venv/
-env/
-lib/
-bin/
-Langchain_tutorial/Langchain_tutorial/
-# Ignore Python cache and logs
+# --- Python & Virtual Environments ---
 __pycache__/
 *.py[cod]
-*.log
-# Ignore environment variables
+*$py.class
+*.so
+.venv/
+venv/
+env/
+# Project-specific venv folders inside Langchain_tutorial
+Langchain_tutorial/bin/
+Langchain_tutorial/lib/
+Langchain_tutorial/include/
+Langchain_tutorial/share/
+Langchain_tutorial/pyvenv.cfg
+Langchain_tutorial/Langchain_tutorial/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Environment Variables ---
 .env
-# Ignore AI agent temporary files and scratchpads
+*.env
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & AI Agents ---
+*.log
 *.plan
 .antigravity/
-pyvenv.cfg
-share/
-.gitattributes
-Langchain_tutorial/.gitattributes
-Langchain_tutorial/.gitignore
+
+# --- Node.js ---
+node_modules/
